@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Motiva Sans';
+  font-style: normal;
+  font-weight: 500; /* Medium - THIS is the one you want */
+  src: url('https://store.akamai.steamstatic.com/public/shared/fonts/motiva-sans-medium.woff') format('woff');
+}
+
+@theme {
+  /* We define a new utility called 'font-motiva' */
+  --font-motiva: "Motiva Sans", "Arial", sans-serif;
+}
+
+body {
+    background: url("/tiled_bg_english.jpg"), #1f2a35;
+    /* overflow-x: hidden; */
+    width: 100%;
+}
+
+@theme{
+    --color-storeblue: #1a9fff;
+    --color-header: #171d25;
+    --color-login: #B8B6B4;
+    --color-install: #E5E4DC;
+    --color-installBG: #5C7E10;
+    --color-menu: #DCDEDF;
+    --color-bgfooter:#171A21;
+    --color-colorFooter:#C6D4DF;
+    --color-rulecolor:#363c44;
+    --color-textFooter:#8F98A0;
+    --color-searchhover:#45acff;
+    --color-discount:#a1cd44;
+    --color-discountBG: rgba(6,20,47,0.81);
+    --color-beforePrice: #848e94;
+}
+
+#heroData{
+    background: radial-gradient(ellipse 160% 1235% at -30% 130%, rgb(19, 35, 74) 0%, rgb(11, 63, 105) 60%, rgb(22, 103, 110) 100%);
+}
+
+#subMenu{
+   background: radial-gradient(107.95% 57.49% at 50% 100%, #18253533 0%, #18253585 5%, #182535d9 20%, #182535 60%, #192330 100%)
+}

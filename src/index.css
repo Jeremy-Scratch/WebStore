@@ -3,12 +3,12 @@
 @font-face {
   font-family: 'Motiva Sans';
   font-style: normal;
-  font-weight: 500; /* Medium - THIS is the one you want */
+  font-weight: 500; 
   src: url('https://store.akamai.steamstatic.com/public/shared/fonts/motiva-sans-medium.woff') format('woff');
 }
 
 @theme {
-  /* We define a new utility called 'font-motiva' */
+
   --font-motiva: "Motiva Sans", "Arial", sans-serif;
 }
 

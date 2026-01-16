@@ -120,7 +120,6 @@ export const Games: GameInfo[] = [
         AfterPrice: 38.49,
     }
 ]
-
 export const deepGames: DeepGameInfo[] = [
     {          
         Name:"PAYDAY2",
@@ -194,4 +193,119 @@ export const deepGames: DeepGameInfo[] = [
         VideoUrl:"https://video.fastly.steamstatic.com/store_trailers/1151340/664076456/5e6404afc7c8d33767cbca13f27299652030d711/1756316590/microtrailer.webm?t=1756832424",
         Img:'src/assets/capsule_616x353(17).jpg'
     }
+]
+export const fGames=[
+    {
+        Name:"Devil May Cry5",
+        Discount: 75,
+        BeforePrice: 29.99,
+        AfterPrice: 7.49, 
+        Img:"src/assets/capsule_616x353(10).jpg"
+    },
+    {
+        Name:"Metaphor: ReFantazio",
+        Discount: 75,
+        BeforePrice: 29.99,
+        AfterPrice: 7.49, 
+        Img:"src/assets/capsule_616x353().jpg"
+    },
+    {
+        Name:"NieR:Automata™",
+        Discount: 75,
+        BeforePrice: 29.99,
+        AfterPrice: 7.49, 
+        Img:"src/assets/capsule_616x353().jpg"
+    },
+    {
+        Name:"VEIN",
+        Discount: 75,
+        BeforePrice: 29.99,
+        AfterPrice: 7.49, 
+        Img:"src/assets/capsule_616x353().jpg"
+    },
+    {
+        Name:"Tom Clancy's Ghost Recon® Breakpoint",
+        Discount: 75,
+        BeforePrice: 29.99,
+        AfterPrice: 7.49, 
+        Img:"src/assets/capsule_616x353().jpg"
+    },
+    {
+        Name:"GUILTY GEAR STRIVE",
+        Discount: 75,
+        BeforePrice: 29.99,
+        AfterPrice: 7.49, 
+        Img:"src/assets/capsule_616x353().jpg"
+    },
+    {
+        Name:"SnowRunner",
+        Discount: 75,
+        BeforePrice: 29.99,
+        AfterPrice: 7.49, 
+        Img:"src/assets/capsule_616x353().jpg"
+    },
+    {
+        Name:"Wildgate",
+        Discount: 75,
+        BeforePrice: 29.99,
+        AfterPrice: 7.49, 
+        Img:"src/assets/capsule_616x353().jpg"
+    },
+    {
+        Name:"Broken Arrow",
+        Discount: 75,
+        BeforePrice: 29.99,
+        AfterPrice: 7.49, 
+        Img:"src/assets/capsule_616x353().jpg"
+    },
+    {
+        Name:"Overcooked! 2",
+        Discount: 75,
+        BeforePrice: 29.99,
+        AfterPrice: 7.49, 
+        Img:"src/assets/capsule_616x353().jpg"
+    },
+    {
+        Name:"Planet Coaster 2",
+        Discount: 75,
+        BeforePrice: 29.99,
+        AfterPrice: 7.49, 
+        Img:"src/assets/capsule_616x353().jpg"
+    },
+    {
+        Name:"Witchfire",
+        Discount: 75,
+        BeforePrice: 29.99,
+        AfterPrice: 7.49, 
+        Img:"src/assets/capsule_616x353().jpg"
+    },
+    {
+        Name:"Oxygen Not Included",
+        Discount: 75,
+        BeforePrice: 29.99,
+        AfterPrice: 7.49, 
+        Img:"src/assets/capsule_616x353().jpg"
+    },
+    {
+        Name:"FINAL FANTASY VII REBIRTH",
+        Discount: 75,
+        BeforePrice: 29.99,
+        AfterPrice: 7.49, 
+        Img:"src/assets/capsule_616x353().jpg"
+    },
+    {
+        Name:"Sea of Thieves: 2025 Edition",
+        Discount: 75,
+        BeforePrice: 29.99,
+        AfterPrice: 7.49, 
+        Img:"src/assets/capsule_616x353().jpg"
+    },
+    {
+        Name:"Valheim",
+        Discount: 75,
+        BeforePrice: 29.99,
+        AfterPrice: 7.49, 
+        Img:"src/assets/capsule_616x353().jpg"
+    }
+    
 ]

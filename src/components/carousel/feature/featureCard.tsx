@@ -24,7 +24,7 @@ export default function Card({ deepGameInfo }: featureCardProps) {
                     <source src={VideoUrl} type="video/webm"/>
                 </video>
             </div>
-            <div><DiscountLabel {...price} /></div>
+            <DiscountLabel {...price} />
         </a>
     );
 }

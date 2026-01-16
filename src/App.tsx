@@ -6,6 +6,7 @@ import FeatureCarousel from './components/carousel/feature/featureCarousel'
 import Footer from './components/footer'
 import Banners from './components/banners'
 import './App.css'
+import FeatureBlock from './components/featureBlock'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <HeroCarousel />
       <FeatureCarousel />
       <Banners />
+      <FeatureBlock/>
       <Footer />
     </>
   )

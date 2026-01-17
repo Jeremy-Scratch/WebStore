@@ -200,112 +200,112 @@ export const fGames=[
         Discount: 75,
         BeforePrice: 29.99,
         AfterPrice: 7.49, 
-        Img:"src/assets/capsule_616x353(10).jpg"
+        Img:"src/assets/capsule_616x353(18).jpg"
     },
     {
         Name:"Metaphor: ReFantazio",
-        Discount: 75,
-        BeforePrice: 29.99,
-        AfterPrice: 7.49, 
-        Img:"src/assets/capsule_616x353().jpg"
+        Discount: 50,
+        BeforePrice: 69.99,
+        AfterPrice: 34.99, 
+        Img:"src/assets/capsule_616x353(19).jpg"
     },
     {
         Name:"NieR:Automata™",
-        Discount: 75,
-        BeforePrice: 29.99,
-        AfterPrice: 7.49, 
-        Img:"src/assets/capsule_616x353().jpg"
+        Discount: 60,
+        BeforePrice: 39.99,
+        AfterPrice: 15.49, 
+        Img:"src/assets/capsule_616x353(20).jpg"
     },
     {
         Name:"VEIN",
-        Discount: 75,
-        BeforePrice: 29.99,
-        AfterPrice: 7.49, 
-        Img:"src/assets/capsule_616x353().jpg"
+        Discount: 15,
+        BeforePrice: 19.99,
+        AfterPrice: 16.99, 
+        Img:"src/assets/capsule_616x353(21).jpg"
     },
     {
         Name:"Tom Clancy's Ghost Recon® Breakpoint",
-        Discount: 75,
-        BeforePrice: 29.99,
-        AfterPrice: 7.49, 
-        Img:"src/assets/capsule_616x353().jpg"
+        Discount: 90,
+        BeforePrice: 59.99,
+        AfterPrice: 5.99, 
+        Img:"src/assets/capsule_616x353(22).jpg"
     },
     {
         Name:"GUILTY GEAR STRIVE",
-        Discount: 75,
-        BeforePrice: 29.99,
-        AfterPrice: 7.49, 
-        Img:"src/assets/capsule_616x353().jpg"
+        Discount: 50,
+        BeforePrice: 39.99,
+        AfterPrice: 19.99, 
+        Img:"src/assets/capsule_616x353(23).jpg"
     },
     {
         Name:"SnowRunner",
-        Discount: 75,
+        Discount: 60,
         BeforePrice: 29.99,
-        AfterPrice: 7.49, 
-        Img:"src/assets/capsule_616x353().jpg"
+        AfterPrice: 11.99, 
+        Img:"src/assets/capsule_616x353(24).jpg"
     },
     {
         Name:"Wildgate",
-        Discount: 75,
+        Discount: 50,
         BeforePrice: 29.99,
-        AfterPrice: 7.49, 
-        Img:"src/assets/capsule_616x353().jpg"
+        AfterPrice: 14.99, 
+        Img:"src/assets/capsule_616x353(25).jpg"
     },
     {
         Name:"Broken Arrow",
-        Discount: 75,
-        BeforePrice: 29.99,
-        AfterPrice: 7.49, 
-        Img:"src/assets/capsule_616x353().jpg"
+        Discount: 15,
+        BeforePrice: 49.99,
+        AfterPrice: 42.49, 
+        Img:"src/assets/capsule_616x353(26).jpg"
     },
     {
         Name:"Overcooked! 2",
         Discount: 75,
-        BeforePrice: 29.99,
-        AfterPrice: 7.49, 
-        Img:"src/assets/capsule_616x353().jpg"
+        BeforePrice: 24.99,
+        AfterPrice: 6.29, 
+        Img:"src/assets/capsule_616x353(27).jpg"
     },
     {
         Name:"Planet Coaster 2",
-        Discount: 75,
-        BeforePrice: 29.99,
-        AfterPrice: 7.49, 
-        Img:"src/assets/capsule_616x353().jpg"
+        Discount: 50,
+        BeforePrice: 49.99,
+        AfterPrice: 24.99, 
+        Img:"src/assets/capsule_616x353(28).jpg"
     },
     {
         Name:"Witchfire",
-        Discount: 75,
-        BeforePrice: 29.99,
-        AfterPrice: 7.49, 
-        Img:"src/assets/capsule_616x353().jpg"
+        Discount: 20,
+        BeforePrice: 39.99,
+        AfterPrice: 31.99, 
+        Img:"src/assets/capsule_616x353(29).jpg"
     },
     {
         Name:"Oxygen Not Included",
-        Discount: 75,
-        BeforePrice: 29.99,
+        Discount: 70,
+        BeforePrice: 24.99,
         AfterPrice: 7.49, 
-        Img:"src/assets/capsule_616x353().jpg"
+        Img:"src/assets/capsule_616x353(30).jpg"
     },
     {
         Name:"FINAL FANTASY VII REBIRTH",
-        Discount: 75,
-        BeforePrice: 29.99,
-        AfterPrice: 7.49, 
-        Img:"src/assets/capsule_616x353().jpg"
+        Discount: 50,
+        BeforePrice: 69.99,
+        AfterPrice: 34.99, 
+        Img:"src/assets/capsule_616x353(31).jpg"
     },
     {
         Name:"Sea of Thieves: 2025 Edition",
-        Discount: 75,
-        BeforePrice: 29.99,
-        AfterPrice: 7.49, 
-        Img:"src/assets/capsule_616x353().jpg"
+        Discount: 65,
+        BeforePrice: 39.99,
+        AfterPrice: 13.99, 
+        Img:"src/assets/capsule_616x353(32).jpg"
     },
     {
         Name:"Valheim",
-        Discount: 75,
-        BeforePrice: 29.99,
-        AfterPrice: 7.49, 
-        Img:"src/assets/capsule_616x353().jpg"
+        Discount: 50,
+        BeforePrice: 19.99,
+        AfterPrice: 9.99, 
+        Img:"src/assets/capsule_616x353(33).jpg"
     }
     
 ]

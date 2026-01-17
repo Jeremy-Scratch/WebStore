@@ -1,8 +1,10 @@
 import DiscountLabel from "./carousel/discountLabel";
-import image from '../assets/capsule_616x353(18).jpg'
-
+import { fGames } from "../services/gamesObjects";
+import BlockHelper from "../hooks/blockHelper";
 
 export default function FeatureBlock() {
+
+    const {gamePacks} = BlockHelper(fGames);
     
     return (
         <div className="max-w-325 w-full box-border px-12.5 py-6.25 ml-auto mr-auto">
@@ -23,7 +25,7 @@ function BlockCard() {
     return (
         <a href="" className="relative z-1 w-[25%] block grow-0 [text-decoration:none]">
             <div className="hover:scale-105 relative block z-2 transition-transform duration-200 ease-in-out">
-                <img src={image} alt="" className="max-w-full " />
+                <img src="" alt="" className="max-w-full " />
             </div>
             <DiscountLabel {...discounts} />
         </a>

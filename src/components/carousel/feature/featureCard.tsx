@@ -5,7 +5,7 @@ export interface DeepGameInfo {
     Discount: number;
     BeforePrice: number;
     AfterPrice: number;
-    VideoUrl: string;
+    VideoUrl?: string;
     Img: string;
 }
 
@@ -16,6 +16,7 @@ export default function Card({ deepGameInfo }: featureCardProps) {
     const { Name, Discount, BeforePrice, AfterPrice, VideoUrl, Img } = deepGameInfo;
 
     const price = { Discount, BeforePrice, AfterPrice, CN:"relative" }
+    
     return (
         <a href="" className="relative z-1 block grow-0 shrink ">
             <div className="group block relative max-w-full z-2 transition-transform ease-in-out duration-200 hover:scale-105">

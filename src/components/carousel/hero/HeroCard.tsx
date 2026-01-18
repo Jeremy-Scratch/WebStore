@@ -27,7 +27,7 @@ export default function HeroCard({ gameInfo }: heroCardProps) {
             <img className="max-h-112.5 block max-w-full" src={ImgUrl} />
             <div id="hoverScreenshots" className="absolute m-0 top-full right-0 w-full h-[46.5%] opacity-0 pointer-events-none bg-black  transition-all duration-500 group-hover:opacity-100 group-hover:top-0">
                 <div className={`h-full bg-[url(${BgUrl})]`} >
-                    <video autoPlay loop preload='' className="w-full" >
+                    <video autoPlay playsInline loop muted preload='' className="w-full" >
                         <source src={VideoUrl} type="video/webm" />
                     </video>
                 </div>

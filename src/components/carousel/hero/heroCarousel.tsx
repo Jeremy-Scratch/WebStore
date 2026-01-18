@@ -1,4 +1,4 @@
-import HeroCard from "./HeroCard";
+import HeroCard from "./heroCard";
 import LeftArrow from "../leftArrow";
 import RightArrow from "../rightArrow";
 import Thumbs from "../thumbs";

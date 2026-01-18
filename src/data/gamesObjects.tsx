@@ -1,4 +1,4 @@
-import type { GameInfo } from "../components/carousel/hero/HeroCard"
+import type { GameInfo } from "../components/carousel/hero/heroCard"
 import type { DeepGameInfo } from "../components/carousel/feature/featureCard"
 
 export const Games: GameInfo[] = [

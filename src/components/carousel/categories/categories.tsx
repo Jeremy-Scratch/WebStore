@@ -1,5 +1,6 @@
+import CategoryCard from "./categoryCard";
 
-export default function () {
+export default function CategoryCarousel() {
     return (
         <div className="max-w-325 w-auto box-border px-12.5 py-6.25 ml-auto mr-auto">
             <div className="relative font-['Motiva_Sans',Sans-serif] font-medium ">
@@ -9,7 +10,7 @@ export default function () {
                         <div id="track" className="relative">{/* Mapping */}
                             <div className=" w-full flex gap-3 transition-opacity duration-400 "> {/* key */}
                                 {/* Mapping */}
-                    {/* card */}<a className="w-[19%] relative max-w-75 rounded-[10px] overflow-hidden h-55.25 shrink-0 decoration-0 " href=""></a> {/* key */}
+                    {/* card */}<CategoryCard/> {/* key */}
                                 {/* 4 cards */}
                             </div>
                         </div>

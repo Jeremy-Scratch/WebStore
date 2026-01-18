@@ -7,6 +7,7 @@ import Footer from './components/footer'
 import Banners from './components/banners'
 import './App.css'
 import FeatureBlock from './components/featureBlock'
+import CategoryCarousel from './components/carousel/categories/categories'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <FeatureCarousel />
       <Banners />
       <FeatureBlock/>
+      <CategoryCarousel/>
       <Footer />
     </>
   )

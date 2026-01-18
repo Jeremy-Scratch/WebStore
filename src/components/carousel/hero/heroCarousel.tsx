@@ -2,7 +2,7 @@ import HeroCard from "./HeroCard";
 import LeftArrow from "../leftArrow";
 import RightArrow from "../rightArrow";
 import Thumbs from "../thumbs";
-import { Games } from "../../../services/gamesObjects";
+import { Games } from "../../../data/gamesObjects";
 import useCarousel from "../../../hooks/carouselLogic";
 
 export default function heroCarousel() {

@@ -1,5 +1,5 @@
 import DiscountLabel from "./carousel/discountLabel";
-import { fGames } from "../services/gamesObjects";
+import { fGames } from "../data/gamesObjects";
 import BlockHelper from "../hooks/blockHelper";
 import type { DeepGameInfo } from "./carousel/feature/featureCard";
 

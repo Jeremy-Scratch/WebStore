@@ -2,7 +2,7 @@ import Card from './featureCard';
 import LeftArrow from '../leftArrow';
 import RightArrow from '../rightArrow';
 import Thumbs from '../thumbs';
-import { deepGames } from '../../../services/gamesObjects';
+import { deepGames } from '../../../data/gamesObjects';
 import useCarousel from '../../../hooks/carouselLogic';
 
 export default function FeatureCarousel() {

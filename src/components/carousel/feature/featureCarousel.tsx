@@ -10,9 +10,9 @@ export default function FeatureCarousel() {
     const {gamePacks,nextSlide,prevSlide,setThumb, ids, currentIndex} = useCarousel(deepGames,3);
 
     return (
-        <div className="max-w-325 w-auto relative z-1 box-border px-12.5 py-6.25 ml-auto mr-auto">
+        <div className="max-w-325 w-screen relative z-1 box-border px-12.5 py-6.25 ml-auto mr-auto">
             <div className="relative rounded-[3px] bg-[rgba(22,41,79,0.7)] ">
-                <div className='relative box-content'>
+                <div className='relative box-content m-0'>
                     <TitleGrid />
                     <div id="carouselContainer" className="relative p-4 ">
                         <div id="carouselTrack" className="relative">

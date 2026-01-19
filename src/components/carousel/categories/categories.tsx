@@ -1,9 +1,12 @@
 import CategoryCard from "./categoryCard";
 import { CategoriesData, CategoryGradient } from "../../../data/gamesObjects";
 import useCarousel from "../../../hooks/carouselLogic";
+import LeftArrow from "../leftArrow";
+import RightArrow from "../rightArrow";
+import Thumbs from "../thumbs";
 
 export default function CategoryCarousel() {
-    const { gamePacks, currentIndex } = useCarousel(CategoriesData, 5);
+    const { gamePacks, currentIndex, nextSlide, prevSlide, setThumb, ids } = useCarousel(CategoriesData, 5);
 
     return (
         <div className="max-w-325 w-auto box-border px-12.5 py-6.25 ml-auto mr-auto">
@@ -16,8 +19,9 @@ export default function CategoryCarousel() {
                             return (
                                 <div key={index}
                                     aria-hidden={!isActive}
-                                    className={`w-full flex gap-3 opacity-0 absolute transition-opacity duration-400 ${isActive ? "opacity-100 relative" : ""}`}>
-                                        {categories.map((category, index) => {
+                                    className={`w-full flex gap-3 opacity-0 absolute top-0 left-0 transition-opacity duration-400 
+                                    ${isActive ? "opacity-100 relative" : "pointer-events-none"}`}>
+                                    {categories.map((category, index) => {
                                         category.CN = CategoryGradient[index];
                                         return (
                                             <CategoryCard key={index} categoryInfo={category} />
@@ -27,9 +31,9 @@ export default function CategoryCarousel() {
                             );
                         })}
                         </div>
-                        {/* arrow */}
-                        {/* arrow */}
-                        {/* thumbs */}
+                        <LeftArrow action={prevSlide}/>
+                        <RightArrow action={nextSlide} />
+                        <Thumbs setThumb={setThumb} ids={ids} currentIndex={currentIndex} />
                     </div>
                 </div>
             </div>

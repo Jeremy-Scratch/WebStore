@@ -1,15 +1,16 @@
 
-
-interface CategoryInfo {
-    Img: string,
+export interface CategoryInfo {
     Name: string,
-    CN: []
+    Img: string,
+    CN?: []
 }
 
 type categoryProps = { categoryInfo: CategoryInfo };
 
 export default function CategoryCard({ categoryInfo }: categoryProps) {
+
     const { Img, Name, CN } = categoryInfo;
+    
     return (
         <a className="group w-[19%] relative max-w-75 rounded-[10px] overflow-hidden h-55.25 shrink-0 decoration-0 " href="">
             <img className="w-full block transition-all duration-200 group-hover:scale-105 group-hover:brightness-[1.1]" src={Img} alt="" />

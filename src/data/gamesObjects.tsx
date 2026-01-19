@@ -1,5 +1,6 @@
 import type { GameInfo } from "../components/carousel/hero/heroCard"
 import type { DeepGameInfo } from "../components/carousel/feature/featureCard"
+import type { CategoryInfo } from "../components/carousel/categories/categoryCard"
 
 export const Games: GameInfo[] = [
 
@@ -308,4 +309,86 @@ export const fGames: DeepGameInfo[]=[
         Img:"src/assets/capsule_616x353(33).jpg"
     }
     
+]
+export const CategoriesData:CategoryInfo[] = [
+    {
+        Name:"Anime",
+        Img: "src/assets/anime.webp"
+    },
+    {
+        Name:"City & Settlement",
+        Img: "src/assets/strategy_cities_settlements.webp"
+    },
+    {
+        Name:"Casual",
+        Img: "src/assets/casual.webp"
+    },
+    {
+        Name:"Role-Playing",
+        Img: "src/assets/rpg.webp"
+    },
+    {
+        Name:"Horror",
+        Img: "src/assets/horror.webp"
+    },
+    {
+        Name:"Adventure",
+        Img: "src/assets/adventure.webp"
+    },
+    {
+        Name:"Visual Novel",
+        Img: "src/assets/visual_novel.webp"
+    },
+    {
+        Name:"Story-Rich",
+        Img: "src/assets/story_rich.webp"
+    },
+    {
+        Name:"All Sports",
+        Img: "src/assets/sports.webp"
+    },
+    {
+        Name:"Survival",
+        Img: "src/assets/survival.webp"
+    },
+    {
+        Name:"Puzzle",
+        Img: "src/assets/puzzle_matching.webp"
+    },
+    {
+        Name:"Strategy",
+        Img: "src/assets/strategy.webp"
+    },
+    {
+        Name:"Co-operative",
+        Img: "src/assets/multiplayer_coop.webp"
+    },
+    {
+        Name:"Free to Play",
+        Img: "src/assets/freetoplay.webp"
+    },
+    {
+        Name:"VR Titles",
+        Img: "src/assets/vr.webp"
+    },
+    {
+        Name:"Action",
+        Img: "src/assets/action.webp"
+    },
+    {
+        Name:"Racing",
+        Img: "src/assets/racing.webp"
+    },
+    {
+        Name:"Rogue-like",
+        Img: "src/assets/rogue_like_rogue_lite.webp"
+    },
+    {
+        Name:"Fighting",
+        Img: "src/assets/fighting_martial_arts.webp"
+    },
+    {
+        Name:"Sci-fi & Cyberpunk",
+        Img: "src/assets/science_fiction.webp"
+    },
 ]

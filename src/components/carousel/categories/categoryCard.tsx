@@ -2,14 +2,14 @@
 export interface CategoryInfo {
     Name: string,
     Img: string,
-    CN?: []
+    CN?: string
 }
 
 type categoryProps = { categoryInfo: CategoryInfo };
 
 export default function CategoryCard({ categoryInfo }: categoryProps) {
 
-    const { Img, Name, CN } = categoryInfo;
+    const { Img, Name,CN} = categoryInfo;
     
     return (
         <a className="group w-[19%] relative max-w-75 rounded-[10px] overflow-hidden h-55.25 shrink-0 decoration-0 " href="">

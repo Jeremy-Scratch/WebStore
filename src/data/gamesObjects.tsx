@@ -395,9 +395,9 @@ export const CategoriesData:CategoryInfo[] = [
 export const CategoryGradient = [
 "[background:linear-gradient(155deg,rgba(0,0,0,0.00)15.03%,rgba(74,14,15,0.45)48.83%,rgba(61,8,9,0.60)84.73%),linear-gradient(135deg,rgba(0,0,0,0.00)9.72%,rgba(115,11,13,0.26)30.04%,rgba(238,23,27,0.38)51.69%,rgba(255,0,4,0.50)92.99%)]",
 
-"[background:linear-gradient(155deg,rgba(0,0,0,0.00)15.03%,rgba(74,55,14,0.45) 48.83%,rgba(61,38,8,0.60)84.73%),linear-gradient(135deg,rgba(0,0,0,0.00)9.72%,rgba(115,75,11,0.26)30.04%,rgba(238,149,23,0.38)51.69%,rgba(255,94,0,0.50)92.99%)]",
+"[background:linear-gradient(155deg,rgba(0,0,0,0.00)15.03%,rgba(74,55,14,0.45)48.83%,rgba(61,38,8,0.60)84.73%),linear-gradient(135deg,rgba(0,0,0,0.00)9.72%,rgba(115,75,11,0.26)30.04%,rgba(238,149,23,0.38)51.69%,rgba(255,94,0,0.50)92.99%)]",
 
-"[background:linear-gradient(155deg,rgba(0,0,0,0.00)15.03%,rgba(41,143, 25, 0.45)48.83%,rgba(86,85,33,0.60)84.73%),linear-gradient(135deg,rgba(0,0,0,0.00)9.72%,rgba(243,240,19,0.26)30.04%,rgba(124,114,178,0.38)51.69%,rgba(251,255,0,0.50)92.99%)]",
+"[background:linear-gradient(155deg,rgba(0,0,0,0.00)15.03%,rgba(41,143,25,0.45)48.83%,rgba(86,85,33,0.60)84.73%),linear-gradient(135deg,rgba(0,0,0,0.00)9.72%,rgba(243,240,19,0.26)30.04%,rgba(124,114,178,0.38)51.69%,rgba(251,255,0,0.50)92.99%)]",
 
 "[background:linear-gradient(155deg,rgba(0,0,0,0.00)15.03%,rgba(14,59,74,0.45)48.83%,rgba(88,155,165,0.60)84.73%),linear-gradient(135deg,rgba(0,0,0,0.00)9.72%,rgba(11,74,115,0.26)30.04%,rgba(23,217,238,0.38)51.69%,rgba(54,159,170,0.50)92.99%)]",
 

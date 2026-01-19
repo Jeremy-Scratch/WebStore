@@ -1,13 +1,13 @@
 import { useState, useMemo } from "react";
 
-export default function useCarousel<T>(Games: T[]) {
+export default function useCarousel<T>(Games: T[], n: number) {
 
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const gamePacks = useMemo(() => {
         const packs = [];
-        for (let i = 0; i < Games.length; i += 3) {
-            packs.push(Games.slice(i, i + 3));
+        for (let i = 0; i < Games.length; i += n) {
+            packs.push(Games.slice(i, i + n));
         }
         return packs;
     }, [Games]);

@@ -7,7 +7,7 @@ import useCarousel from "../../../hooks/carouselLogic";
 
 export default function heroCarousel() {
 
-    const {gamePacks,nextSlide,prevSlide,setThumb, ids, currentIndex} = useCarousel(Games);
+    const {gamePacks,nextSlide,prevSlide,setThumb, ids, currentIndex} = useCarousel(Games,3);
 
     return (
         <div className="relative z-1 py-6.25 max-w-325 box-border px-12.5 ml-auto mr-auto w-auto flex">

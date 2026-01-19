@@ -7,7 +7,7 @@ import useCarousel from '../../../hooks/carouselLogic';
 
 export default function FeatureCarousel() {
 
-    const {gamePacks,nextSlide,prevSlide,setThumb, ids, currentIndex} = useCarousel(deepGames);
+    const {gamePacks,nextSlide,prevSlide,setThumb, ids, currentIndex} = useCarousel(deepGames,3);
 
     return (
         <div className="max-w-325 w-auto relative z-1 box-border px-12.5 py-6.25 ml-auto mr-auto">

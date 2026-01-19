@@ -1,11 +1,11 @@
 import DiscountLabel from "./carousel/discountLabel";
 import { fGames } from "../data/gamesObjects";
-import BlockHelper from "../hooks/blockHelper";
+import useCarousel from "../hooks/carouselLogic";
 import type { DeepGameInfo } from "./carousel/feature/featureCard";
 
 export default function FeatureBlock() {
 
-    const { gamePacks } = BlockHelper(fGames);
+    const { gamePacks } = useCarousel(fGames,4);
 
     return (
         <div className="max-w-325 w-auto box-border px-12.5 py-6.25 ml-auto mr-auto">

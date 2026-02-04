@@ -1,5 +1,9 @@
 import footerLogoSteam from '../assets/logo_steam_footer.png';
 import footerLogoValve from '../assets/footerLogo_valve_new.png';
+import facebookIcon from '../assets/ico_facebook.png';
+import twitterIcon from '../assets/ico_twitter.png';
+import bskyIcon from '../assets/ico_bsky.png';
+
 export default function Footer() {
 
     return (
@@ -10,7 +14,7 @@ export default function Footer() {
                     <div className='pt-0.5 float-left'><img className='h-6.25' src={footerLogoValve} /></div>
                     <div className='pt-0.5 float-right'><img src={footerLogoSteam} /></div>
                     <div className='text-xs leading-4 ml-3 text-textFooter clear-both text-left'>
-                        <div>© 2025 Valve Corporation.  All rights reserved.  All trademarks are property of their respective owners in the US and other countries.</div>
+                        <div>© 2025 ---- Corporation.  All rights reserved.  All trademarks are property of their respective owners in the US and other countries.</div>
                         <div>VAT included in all prices where applicable. &nbsp;
                             <a className=" text-colorFooter" href="">Privicy Policy</a>
                             &nbsp;
@@ -24,7 +28,7 @@ export default function Footer() {
                             &nbsp;
                             <span>|</span>
                             &nbsp;
-                            <a className=" text-colorFooter" href="">Steam Subscriber Agreement</a>
+                            <a className=" text-colorFooter" href="">Subscriber Agreement</a>
                             &nbsp;
                             <span>|</span>
                             &nbsp;
@@ -39,23 +43,23 @@ export default function Footer() {
                     <br />
                     <div className=" h-2 border-t border-rulecolor border-solid "></div>
                     <div className='flex flex-row flex-wrap justify-evenly mt-2 text-xs'>
-                        <a href="">About Valve</a>
+                        <a href="">About</a>
                         <span aria-hidden="true">|</span>
                         <a href="">Jobs</a>
                         <span aria-hidden="true">|</span>
-                        <a href="">Steamworks</a>
+                        <a href="">Works</a>
                         <span aria-hidden="true">|</span>
-                        <a href="">Steam Distribution</a>
+                        <a href="">Distribution</a>
                         <span aria-hidden="true">|</span>
                         <a href="">Support</a>
                         <span aria-hidden="true">|</span>
                         <a href="">Gift Cards</a>
                         <span aria-hidden="true">|</span>
-                        <a href=""><img src="https://store.akamai.steamstatic.com/public/images/ico/ico_facebook.png" /></a>
+                        <a href=""><img src= {facebookIcon} /></a>
                         <span aria-hidden="true">|</span>
-                        <a href=""><img src="https://store.akamai.steamstatic.com/public/images/ico/ico_twitter.png" /></a>
+                        <a href=""><img src= {twitterIcon} /></a>
                         <span aria-hidden="true">|</span>
-                        <a href=""><img src="https://store.akamai.steamstatic.com/public/images/ico/ico_bsky.png" /></a>
+                        <a href=""><img src= {bskyIcon} /></a>
                     </div>
                     <div className='h-15'></div>
                 </div>

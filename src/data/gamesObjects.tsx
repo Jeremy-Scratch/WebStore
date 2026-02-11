@@ -120,14 +120,14 @@ export const Games: GameInfo[] = [
         BeforePrice: 69.99,
         AfterPrice: 38.49,
     }
-]
+]   
 export const deepGames: DeepGameInfo[] = [
     {                  
         Name:"PAYDAY2",
         Discount: 90,
         BeforePrice: 9.99,
         AfterPrice: 0.99,
-        VideoUrl:"https://video.fastly.steamstatic.com/store_trailers/218620/834105061/2d7c8f7b8a0a705cc5bbf4ccc720f29b61e876d9/1750481367/microtrailer.webm?t=1747224986", 
+        VideoUrl:"src/assets/payday2.webm", 
         Img:"src/assets/capsule_616x353.jpg"
     },
     {   
@@ -135,7 +135,7 @@ export const deepGames: DeepGameInfo[] = [
         Discount: 90,
         BeforePrice: 34.99,
         AfterPrice: 3.49,
-        VideoUrl:"https://video.fastly.steamstatic.com/store_trailers/1149460/351075938/a7a0c966ff56875676dcce09e3f810643d452a98/1753055228/microtrailer.webm?t=1753056808" ,
+        VideoUrl:"src/assets/icarus.webm" ,
         Img:'src/assets/capsule_616x353(1).jpg'
     },
     {   
@@ -143,7 +143,7 @@ export const deepGames: DeepGameInfo[] = [
         Discount: 90,
         BeforePrice: 49.99,
         AfterPrice: 4.99,
-        VideoUrl:"https://video.akamai.steamstatic.com/store_trailers/934700/772874/2b9a66eedd5f57b6934b700b41404ac40ccc8e12/1750597891/microtrailer.webm?t=1729610163",
+        VideoUrl:"src/assets/deadisland2.webm",
         Img:'src/assets/capsule_616x353(2).jpg'
     },
     {   
@@ -151,7 +151,7 @@ export const deepGames: DeepGameInfo[] = [
         Discount: 90,
         BeforePrice: 39.99,
         AfterPrice: 3.99,
-        VideoUrl:"https://video.fastly.steamstatic.com/store_trailers/606280/100841/ac926393614dbd644670fa581afb8fa25330de99/1750561300/microtrailer.webm?t=1498220875",
+        VideoUrl:"src/assets/darksiders3.webm",
         Img:'src/assets/capsule_616x353(3).jpg'
     },
     {   
@@ -159,7 +159,7 @@ export const deepGames: DeepGameInfo[] = [
         Discount: 90,
         BeforePrice: 49.99,
         AfterPrice: 4.99,
-        VideoUrl:"https://video.fastly.steamstatic.com/store_trailers/485510/131812/89af21ae4188b96860383d8f6061a07574a68d6b/1750536695/microtrailer.webm?t=1509956277",
+        VideoUrl:"src/assets/nioh.webm",
         Img:'src/assets/capsule_616x353(4).jpg'
     },
     {   
@@ -167,7 +167,7 @@ export const deepGames: DeepGameInfo[] = [
         Discount: 90,
         BeforePrice: 49.99,
         AfterPrice: 4.99,
-        VideoUrl:"https://video.fastly.steamstatic.com/store_trailers/920210/510576/f1a07979227ba5c5a4592888deadc7aba83953f1/1750596268/microtrailer.webm?t=1667432123",
+        VideoUrl:"src/assets/legostarwars.webm",
         Img:'src/assets/capsule_616x353(5).jpg'
     },
     {   
@@ -175,7 +175,7 @@ export const deepGames: DeepGameInfo[] = [
         Discount: 90,
         BeforePrice: 59.99,
         AfterPrice: 5.99,
-        VideoUrl:"https://video.fastly.steamstatic.com/store_trailers/2208920/515678/08b6d5b1267d155673daea051094ee1046ddfff7/1750809553/microtrailer.webm?t=1693577111",
+        VideoUrl:"src/assets/assassinscreedvalhalla.webm",
         Img:'src/assets/capsule_616x353(6).jpg'
     },
     {   
@@ -183,7 +183,7 @@ export const deepGames: DeepGameInfo[] = [
         Discount: 90,
         BeforePrice: 19.99,
         AfterPrice: 1.99,
-        VideoUrl:"https://video.akamai.steamstatic.com/store_trailers/622650/567000514/b1ac45121f429341b8f0f0f9accd138570ec6d83/1750563536/microtrailer.webm?t=1746814531",
+        VideoUrl:"src/assets/bendy.webm",
         Img:'src/assets/capsule_616x353(7).jpg'
     },
     {   
@@ -191,7 +191,7 @@ export const deepGames: DeepGameInfo[] = [
         Discount: 90,
         BeforePrice: 39.99,
         AfterPrice: 3.99,
-        VideoUrl:"https://video.fastly.steamstatic.com/store_trailers/1151340/664076456/5e6404afc7c8d33767cbca13f27299652030d711/1756316590/microtrailer.webm?t=1756832424",
+        VideoUrl:"src/assets/fallout76.webm",
         Img:'src/assets/capsule_616x353(8).jpg'
     }
 ]

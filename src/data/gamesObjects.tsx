@@ -5,9 +5,9 @@ import type { CategoryInfo } from "../components/carousel/categories/categoryCar
 export const Games: GameInfo[] = [
 
     {
-        ImgUrl: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3017860/2698868b70d1ac0595ea7e8fd9a08ea31611ca10/hero_capsule.jpg?t=1764606093",
-        BgUrl: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3017860/ss_ba66d42e3d1ea78e5b085682484210b390eb9ccc.600x338.jpg",
-        VideoUrl: "https://video.fastly.steamstatic.com/store_trailers/3017860/1777709634/e3e986d894e749e052531d184d6de468a5d35e53/1748584907/microtrailer.webm?t=1747324264",
+        ImgUrl: "src/assets/hero_capsule_doom.jpg",
+        BgUrl: "src/assets/doom_bg.jpg",
+        VideoUrl: "src/assets/doom_dark_ages.webm",
         Title: "DOOM: The Dark Ages",
         ReviewSumary: "Very Positive",
         ReviewStat: 14262,
@@ -18,9 +18,9 @@ export const Games: GameInfo[] = [
     },
 
     {
-        ImgUrl: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1687950/hero_capsule.jpg?t=1763530018",
-        BgUrl: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1687950/ss_ddcc016b8e5c434ccbd1a89c0157ce73acf905ae.600x338.jpg",
-        VideoUrl: "https://video.fastly.steamstatic.com/store_trailers/1687950/506609/4ee1371464ce2149f69f89c36b9f906e369db2f1/1750725763/microtrailer.webm?t=1722428147",
+        ImgUrl: "src/assets/hero_capsule_persona.jpg",
+        BgUrl: "src/assets/persona_bg.jpg",
+        VideoUrl: "src/assets/persona_5.webm",
         Title: "Persona 5 Royal",
         ReviewSumary: "Overwhelmingly Positive",
         ReviewStat: 29865,
@@ -31,9 +31,9 @@ export const Games: GameInfo[] = [
     },
 
     {
-        ImgUrl: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2807960/4bf05302e4ac2086fed8a75ed7cd0673602b2c62/hero_capsule.jpg?t=1765583938",
-        BgUrl: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2807960/6b43d1ae44748a7df141e9f485a5e574f8fce5bd/ss_6b43d1ae44748a7df141e9f485a5e574f8fce5bd.600x338.jpg",
-        VideoUrl: "https://video.fastly.steamstatic.com/store_trailers/2807960/1396276965/b786459af157b7e37dc4659b000ea09a8e667dc6/1763588534/microtrailer.webm?t=1763674195",
+        ImgUrl: "src/assets/hero_capsule_battlefield.jpg",
+        BgUrl: "src/assets/battlefield_bg.jpg",
+        VideoUrl: "src/assets/battlefield_6.webm",
         Title: "Battlefield™ 6",
         ReviewSumary: "Mostly Positive",
         ReviewStat: 123508,
@@ -44,9 +44,9 @@ export const Games: GameInfo[] = [
     },
 
     {
-        ImgUrl: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1030300/b4bea33ed0db45aa1da0bf917abcc819faff5f2e/hero_capsule.jpg?t=1764916587",
-        BgUrl: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1030300/09ccaa6c16f158f9df8298feb5d196098506a028/ss_09ccaa6c16f158f9df8298feb5d196098506a028.600x338.jpg",
-        VideoUrl: "https://video.akamai.steamstatic.com/store_trailers/1030300/970174968/f2c514c96548048dd1dca6ef500877916b75fe5a/1755841475/microtrailer.webm?t=1764916585",
+        ImgUrl: "src/assets/hero_capsule_silksong.jpg",
+        BgUrl: "src/assets/silksong_bg.jpg",
+        VideoUrl: "src/assets/silk_song.webm",
         Title: "Hollow Knight: Silksong",
         ReviewSumary: "Very Positive",
         ReviewStat: 128018,
@@ -57,9 +57,9 @@ export const Games: GameInfo[] = [
     },
 
     {
-        ImgUrl: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1145350/a783c3347d40597930d282fa6727044c214e4be1/hero_capsule.jpg?t=1765831644",
-        BgUrl: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1145350/ss_b88cb7b48a86f07a7288bf37141f6558279f9bfc.600x338.jpg",
-        VideoUrl: "https://video.fastly.steamstatic.com/store_trailers/1145350/1067641820/dfba9c6a8b09f5bd9b323d6e699ac685065b93d3/1758924611/microtrailer.webm?t=1758942439",
+        ImgUrl: "src/assets/hero_capsule_hades2.jpg",
+        BgUrl: "src/assets/hades2_bg.jpg",
+        VideoUrl: "src/assets/hades_2.webm",
         Title: "Hades II",
         ReviewSumary: "Overwhelmingly Positive",
         ReviewStat: 57704,
@@ -70,9 +70,9 @@ export const Games: GameInfo[] = [
     },
 
     {
-        ImgUrl: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/hero_capsule.jpg?t=1759502961",
-        BgUrl: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/ss_66b553f4c209476d3e4ce25fa4714002cc914c4f.600x338.jpg",
-        VideoUrl: "https://video.fastly.steamstatic.com/store_trailers/1174180/254554/90a98a4fe08d5a804167e39e6e6d6e5715ae1890/1750634082/microtrailer.webm?t=1574881947",
+        ImgUrl: "src/assets/hero_capsule_rrr2.jpg",
+        BgUrl: "src/assets/rrr2_bg.jpg",
+        VideoUrl: "src/assets/rrr_2.webm",
         Title: "Red Dead Redemption 2",
         ReviewSumary: "Very Positive",
         ReviewStat: 274170,
@@ -83,9 +83,9 @@ export const Games: GameInfo[] = [
     },
 
     {
-        ImgUrl: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3472040/0e9b66b404e9071551081f50ec900720f60ac4e0/hero_capsule.jpg?t=1764346316",
-        BgUrl: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3472040/dc8acb92de608bd8e4468aee8cb64db7eed61027/ss_dc8acb92de608bd8e4468aee8cb64db7eed61027.600x338.jpg",
-        VideoUrl: "https://video.akamai.steamstatic.com/store_trailers/3472040/1059261060/b556a5ad4edc822701c0bcd2360bef335c7dbf5c/1757316395/microtrailer.webm?t=1757322769",
+        ImgUrl: "src/assets/hero_capsule_2k26.jpg",
+        BgUrl: "src/assets/2k26_bg.jpg",
+        VideoUrl: "src/assets/nba_2k26.webm",
         Title: "NBA 2K26",
         ReviewSumary: "Mostly Positive",
         ReviewStat: 3677,
@@ -96,9 +96,9 @@ export const Games: GameInfo[] = [
     },
 
     {
-        ImgUrl: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3606480/31b4b3e440129c472e45f78ebb375b6e83f91c90/hero_capsule.jpg?t=1766101946",
-        BgUrl: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3606480/7bce43350428d4b8859481263113e30d169451d9/ss_7bce43350428d4b8859481263113e30d169451d9.600x338.jpg",
-        VideoUrl: "https://video.fastly.steamstatic.com/store_trailers/3606480/184761750/d7a0856863e85315be3eaf959fb69cc7cb38f897/1764786481/microtrailer.webm?t=1764867756",
+        ImgUrl: "src/assets/hero_capsule_blackops7.jpg",
+        BgUrl: "src/assets/blackops7_bg.jpg",
+        VideoUrl: "src/assets/cod_blackops_7.webm",
         Title: "Call of Duty®: Black Ops 7",
         ReviewSumary: "Mostly Negative",
         ReviewStat: 1597,
@@ -109,9 +109,9 @@ export const Games: GameInfo[] = [
     },
 
     {
-        ImgUrl: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2246340/ac2357a6167bf543b72c7a69ba7fa647013e1f62/hero_capsule.jpg?t=1766102696",
-        BgUrl: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2246340/ss_d439e321350c004c4d866c248019aefdc6a50600.600x338.jpg",
-        VideoUrl: "https://video.fastly.steamstatic.com/store_trailers/2246340/1175711887/4753edf8bca76e24d035ed8919a6d8bd52fbc13d/1765521776/microtrailer.webm?t=1765526396",
+        ImgUrl: "src/assets/hero_capsule_mhwild.jpg",
+        BgUrl: "src/assets/mhwild_bg.jpg",
+        VideoUrl: "src/assets/monster_hunter_wild.webm",
         Title: "Monster Hunter Wilds",
         ReviewSumary: "Mixed",
         ReviewStat: 76522,

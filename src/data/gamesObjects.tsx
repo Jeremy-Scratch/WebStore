@@ -195,7 +195,7 @@ export const deepGames: DeepGameInfo[] = [
         Img:'src/assets/capsule_616x353(8).jpg'
     }
 ]
-export const fGames: DeepGameInfo[]=[
+export const fGames: DeepGameInfo[] = [
     {
         Name:"Devil May Cry5",
         Discount: 75,

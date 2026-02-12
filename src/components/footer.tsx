@@ -1,4 +1,4 @@
-import footerLogoSteam from '../assets/logo_steam_footer.png';
+import footerLogo from '../assets/Triangle_revolution.png';
 import footerLogoValve from '../assets/footerLogo_valve_new.png';
 import facebookIcon from '../assets/ico_facebook.png';
 import twitterIcon from '../assets/ico_twitter.png';
@@ -12,7 +12,7 @@ export default function Footer() {
                 <div className="block pt-4 w-235 m-auto">
                     <div className=" h-2 border-t border-rulecolor border-solid "></div>
                     <div className='pt-0.5 float-left'><img className='h-6.25' src={footerLogoValve} /></div>
-                    <div className='pt-0.5 float-right'><img src={footerLogoSteam} /></div>
+                    <div className='pt-0.5 float-right'><img className='h-8' src={footerLogo} /></div>
                     <div className='text-xs leading-4 ml-3 text-textFooter clear-both text-left'>
                         <div>© 2025 ---- Corporation.  All rights reserved.  All trademarks are property of their respective owners in the US and other countries.</div>
                         <div>VAT included in all prices where applicable. &nbsp;

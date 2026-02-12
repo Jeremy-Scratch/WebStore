@@ -1,4 +1,4 @@
-import logo from '../assets/logo_steam.svg';
+import logo from '../assets/Triangle_revolution.png';
 import downloadIcon from '../assets/btn_header_installsteam_download.png';
 
 export default function Navbar() {
@@ -7,7 +7,7 @@ export default function Navbar() {
             <div className="flex px-4 h-26 m-0 bg-header min-w-dvw place-content-around">
                 <div className="flex font-motiva font-medium">
                     <div className='pt-7.5 me-10 cursor-pointer'>
-                        <img src={logo} alt="logo" className="h-11 w-44" />
+                        <img src={logo} alt="logo" className="h-14 w-20" />
                     </div>
                     <div className='flex text-base leading-4 float-left cursor-pointer uppercase antialiased [text-shadow:1px_1px_1px_rgba(0,0,0,0.5)] '>
                         <a className="relative pt-11.25 px-1.75 pb-1.75 text-storeblue

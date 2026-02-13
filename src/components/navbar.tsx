@@ -4,7 +4,7 @@ import downloadIcon from '../assets/btn_header_installsteam_download.png';
 export default function Navbar() {
 
     return (
-            <div className="flex px-4 h-26 m-0 bg-header min-w-dvw place-content-around">
+            <div className="flex px-4 h-26 m-0 bg-header min-w-dvw place-content-around bg-[linear-gradient(0deg,rgba(23,23,23,1)0%,rgba(0,0,0,1)38%)]">
                 <div className="flex font-motiva font-medium">
                     <div className='pt-7.5 me-10 cursor-pointer'>
                         <img src={logo} alt="logo" className="h-14 w-20" />

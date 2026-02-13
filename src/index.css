@@ -7,13 +7,12 @@
 
 body {
     background: url("/tiled_bg_english.jpg"), #1f2a35;
-    /* overflow-x: hidden; */
     width: 100%;
 }
 
 @theme{
     --color-storeblue: #1a9fff;
-    --color-header: #171d25;
+    --color-header: #303030; 
     --color-login: #B8B6B4;
     --color-install: #E5E4DC;
     --color-installBG: #5C7E10;

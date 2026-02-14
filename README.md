@@ -20,8 +20,8 @@ Prerequisites: Node.js (16+), npm or pnpm/yarn.
 📋 Clone the repository:
 
 ```bash
-git clone https://github.com/Jeremy-Scratch/GitHub-User-Activity.git
-cd GitHub-User-Activity
+git clone https://github.com/Jeremy-Scratch/WebStore.git
+cd WebStore
 ```
 
 Install dependencies:
@@ -55,6 +55,7 @@ If your `package.json` uses different script names, adjust the commands accordin
 - `index.html` — app entry HTML
 - `src/main.tsx` — React entry
 - `src/App.tsx` — root component
+- `src/assets/` — images and media
 - `src/components/` — UI components (navbar, hero, carousels, footer, etc.)
 - `src/hooks/` — custom hooks (carousel logic)
 - `src/data/` — sample data objects (gamesObjects)

@@ -1,73 +1,69 @@
-# React + TypeScript + Vite
+# WebStore
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Small e-commerce demo frontend built with Vite + React + TypeScript.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This repository contains a frontend UI for a small web store showcasing components such as a navbar, hero/feature carousels, product/category cards, and a footer. The project is structured for clarity and component re-use.
 
-## React Compiler
+## Tech stack
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+- Vite
+- React
+- TypeScript
+- CSS
 
-## Expanding the ESLint configuration
+## Quick start
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Prerequisites: Node.js (16+), npm or pnpm/yarn.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Install dependencies:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Run development server:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run dev
 ```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+
+If your `package.json` uses different script names, adjust the commands accordingly.
+
+## Project structure
+
+- `index.html` — app entry HTML
+- `src/main.tsx` — React entry
+- `src/App.tsx` — root component
+- `src/components/` — UI components (navbar, hero, carousels, footer, etc.)
+- `src/hooks/` — custom hooks (carousel logic)
+- `src/data/` — sample data objects (gamesObjects)
+- `public/` — static assets
+
+See `docs/Components.md` and `docs/Architecture.md` for details about components and architecture.
+
+## Development notes
+
+- Components are organized by feature (e.g., `carousel/feature`, `carousel/hero`).
+- Use the `hooks/carouselLogic.tsx` hook to understand carousel behavior and state handling.
+
+## Contributing
+
+See `docs/CONTRIBUTING.md` for how to contribute, run linters, and run the development server.
+
+## License
+
+Include your license here (MIT, Apache-2.0, etc.) or remove this section.

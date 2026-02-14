@@ -2,7 +2,7 @@
 
 Small e-commerce demo frontend built with Vite + React + TypeScript.
 
-## Overview
+## 🚀 Overview
 
 This repository contains a frontend UI for a small web store showcasing components such as a navbar, hero/feature carousels, product/category cards, and a footer. The project is structured for clarity and component re-use.
 
@@ -13,14 +13,16 @@ This repository contains a frontend UI for a small web store showcasing componen
 - TypeScript
 - Tailwind CSS
 
-## Quick start
+## ⚙️ Quick start
 
 Prerequisites: Node.js (16+), npm or pnpm/yarn.
 
- Clone the repository:
-   ```bash
-   git clone https://github.com/Jeremy-Scratch/GitHub-User-Activity.git
-   cd GitHub-User-Activity
+📋 Clone the repository:
+
+```bash
+git clone https://github.com/Jeremy-Scratch/GitHub-User-Activity.git
+cd GitHub-User-Activity
+```
 
 Install dependencies:
 
@@ -48,7 +50,7 @@ npm run preview
 
 If your `package.json` uses different script names, adjust the commands accordingly.
 
-## Project structure
+## ✨ Project structure
 
 - `index.html` — app entry HTML
 - `src/main.tsx` — React entry
@@ -60,7 +62,7 @@ If your `package.json` uses different script names, adjust the commands accordin
 
 See `docs/Components.md` and `docs/Architecture.md` for details about components and architecture.
 
-## Development notes
+## 📋 Development notes
 
 - Components are organized by feature (e.g., `carousel/feature`, `carousel/hero`).
 - Use the `hooks/carouselLogic.tsx` hook to understand carousel behavior and state handling.
@@ -69,6 +71,6 @@ See `docs/Components.md` and `docs/Architecture.md` for details about components
 
 See `docs/CONTRIBUTING.md` for how to contribute, run linters, and run the development server.
 
-## License
+## 📋 License
 
-Include your license here (MIT, Apache-2.0, etc.) or remove this section.
+This project is licensed under the MIT License. See the LICENSE file for more details.

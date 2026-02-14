@@ -6,7 +6,7 @@ Small e-commerce demo frontend built with Vite + React + TypeScript.
 
 This repository contains a frontend UI for a small web store showcasing components such as a navbar, hero/feature carousels, product/category cards, and a footer. The project is structured for clarity and component re-use.
 
-## Tech stack
+## 🛠️ Tech stack
 
 - Vite
 - React
@@ -16,6 +16,11 @@ This repository contains a frontend UI for a small web store showcasing componen
 ## Quick start
 
 Prerequisites: Node.js (16+), npm or pnpm/yarn.
+
+ Clone the repository:
+   ```bash
+   git clone https://github.com/Jeremy-Scratch/GitHub-User-Activity.git
+   cd GitHub-User-Activity
 
 Install dependencies:
 

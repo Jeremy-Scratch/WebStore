@@ -12,7 +12,7 @@ body {
 
 @theme{
     --color-storeblue: #1a9fff;
-    --color-header: #303030; 
+    --color-header: #; 
     --color-login: #B8B6B4;
     --color-install: #E5E4DC;
     --color-installBG: #5C7E10;
@@ -32,5 +32,5 @@ body {
 }
 
 #subMenu{
-   background: radial-gradient(107.95% 57.49% at 50% 100%, #18253533 0%, #18253585 5%, #182535d9 20%, #182535 60%, #192330 100%)
+   background: radial-gradient(107.95% 57.49% at 50% 100%, #18253533 0%, #1c2e4367 5%, #182535d9 20%, #1a2d47 60%, #13253fa8 100%)
 }

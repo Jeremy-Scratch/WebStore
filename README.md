@@ -11,7 +11,7 @@ This repository contains a frontend UI for a small web store showcasing componen
 - Vite
 - React
 - TypeScript
-- CSS
+- Tailwind CSS
 
 ## Quick start
 
